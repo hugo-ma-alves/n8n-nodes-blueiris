@@ -64,6 +64,7 @@ async function doRequest(this: IHookFunctions | IExecuteFunctions | IExecuteSing
 	return responseData;
 }
 
+// tslint:disable-next-line: no-any
 function checkResponseErrors(node: INode, responseData: any) {
 	if (responseData.result !== 'success') {
 		throw new NodeOperationError(node, `Received the following error from BlueIris API: ${responseData.data.reason}`);
