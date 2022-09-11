@@ -1,4 +1,4 @@
-name: Build n8n blueiris node
+name: Build n8n BlueIris node
 
 on:
   push:
@@ -19,5 +19,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npm run lint
-    - run: npm run build
+    - run: npm prepublishOnly
