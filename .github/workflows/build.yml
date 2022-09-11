@@ -1,9 +1,6 @@
 name: Build n8n BlueIris node
 
-on:
-  push:
-  pull_request:
-    branches: [ "master" ]
+on: ["push", "pull_request"]
 
 jobs:
   build:
