@@ -1,5 +1,7 @@
 # n8n-nodes-blueiris
 
+![Build](https://github.com/hugo-ma-alves/n8n-nodes-blueiris/actions/workflows/build.yml/badge.svg)
+
 This is an n8n community node. It lets you use BlueIris api in your n8n workflows.
 
 This node allows you to invoke some endpoints from the [BlueIris](https://blueirissoftware.com/) cctv software API.
