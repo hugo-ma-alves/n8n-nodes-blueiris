@@ -6,7 +6,7 @@
 		"n8n-community-node-package"
 	],
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://github.com/hugo-ma-alves/n8n-nodes-blueiris",
 	"author": {
 		"name": "Hugo Alves",
 		"email": "hugo.ma.alves@gmail.com"
